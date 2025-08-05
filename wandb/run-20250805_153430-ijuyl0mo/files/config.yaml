@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            xqs76wcicoaudv4hvrhl6rdf8vhtjqwy:
+                codePath: src\train.py
+                codePathLocal: src\train.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "220727341056"
+                        used: "194428907520"
+                email: 555prashantmishra@gmail.com
+                executable: C:\Python31\python.exe
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-9b25cad1-81b6-928b-d689-aae440111b31
+                host: LAPTOP-LDPN3661
+                memory:
+                    total: "7887228928"
+                os: Windows-10-10.0.26100-SP0
+                program: c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py
+                python: CPython 3.10.9
+                root: C:\Users\prash\Downloads\ayna-ml-assignment
+                startedAt: "2025-08-05T10:04:30.040096Z"
+                writerId: xqs76wcicoaudv4hvrhl6rdf8vhtjqwy
+        m: []
+        python_version: 3.10.9
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 1
+            "4": 3.10.9
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 4
+data_augmentation:
+    value: Paired In-Dataset
+epochs:
+    value: 150
+learning_rate:
+    value: 0.001
+loss_function:
+    value: L1Loss
+scheduler:
+    value: StepLR

@@ -1,0 +1,13 @@
+{"time":"2025-08-05T17:36:01.0404216+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-05T17:36:01.5693084+05:30","level":"INFO","msg":"stream: created new stream","id":"r4l3jsqp"}
+{"time":"2025-08-05T17:36:01.5693084+05:30","level":"INFO","msg":"handler: started","stream_id":"r4l3jsqp"}
+{"time":"2025-08-05T17:36:01.5693084+05:30","level":"INFO","msg":"sender: started","stream_id":"r4l3jsqp"}
+{"time":"2025-08-05T17:36:01.5693084+05:30","level":"INFO","msg":"stream: started","id":"r4l3jsqp"}
+{"time":"2025-08-05T17:36:01.5693084+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"r4l3jsqp"}
+{"time":"2025-08-05T17:47:37.3895031+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/555prashantmishra-national-institute-of-technology-andhr/ayna-ml-assignment/r4l3jsqp/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-05T17:54:18.4540417+05:30","level":"INFO","msg":"stream: closing","id":"r4l3jsqp"}
+{"time":"2025-08-05T17:54:19.9022566+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-05T17:54:20.4484171+05:30","level":"INFO","msg":"handler: closed","stream_id":"r4l3jsqp"}
+{"time":"2025-08-05T17:54:20.4484171+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"r4l3jsqp"}
+{"time":"2025-08-05T17:54:20.4489502+05:30","level":"INFO","msg":"sender: closed","stream_id":"r4l3jsqp"}
+{"time":"2025-08-05T17:54:20.4489502+05:30","level":"INFO","msg":"stream: closed","id":"r4l3jsqp"}

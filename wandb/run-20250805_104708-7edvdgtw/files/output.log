@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 75, in <module>
+    main()
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 52, in main
+    train_dataset = PolygonDataset(root_dir='../dataset/training', transform=transform)
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\dataset.py", line 13, in __init__
+    self.data = json.load(open(os.path.join(root_dir, 'data.json')))
+FileNotFoundError: [Errno 2] No such file or directory: '../dataset/training\\data.json'

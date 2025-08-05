@@ -1,0 +1,7 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 121, in <module>
+    main()
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 81, in main
+    train_dataset = PolygonDataset(root_dir=train_dir, transform=transform)
+TypeError: PolygonDataset.__init__() got an unexpected keyword argument 'transform'

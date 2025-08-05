@@ -1,0 +1,9 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 119, in <module>
+    main()
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 110, in main
+    validate(model, device, val_loader, criterion)
+  File "c:\Users\prash\Downloads\ayna-ml-assignment\src\train.py", line 59, in validate
+    wandb.log({"val_loss": val_loss, "learning_rate": optimizer.param_groups[0]['lr']})
+NameError: name 'optimizer' is not defined
